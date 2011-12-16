@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">AMaze</string>
+    <string name="RobotOperationMode"> Choose a mode </string>
+    <string name="launch" > LAUNCH</string>
+    <string name = "SkillLevel" > Choose a Skill Level</string>
+
+</resources>

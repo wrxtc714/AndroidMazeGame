@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Maze Generation"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:padding = "15px"/>
+
+    <TextView
+        android:id="@+id/selection1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a skill level" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop= "true"
+        android:prompt="@string/SkillLevel"  />
+
+    <Space 
+        android:layout_width="match_parent" 
+        android:layout_height="30px"
+        />
+    
+
+    <TextView
+        android:id="@+id/selection2"
+        android:layout_width="fill_parent"
+        android:layout_height = "wrap_content"
+        android:text="Select an operation mode"
+        />
+    
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop= "true"
+        android:prompt="@string/RobotOperationMode" />
+
+    <Space 
+        android:layout_width="match_parent" 
+        android:layout_height="80px"
+       		/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/launch" />
+
+ 
+
+</LinearLayout>
